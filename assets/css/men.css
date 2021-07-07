@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 22px;
-  background: #fcd492;
+  background: grey;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: black;
+  background: grey;
   color: #fff;
 }
 
@@ -526,7 +526,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #fcd492;
+  background: grey;
   padding: 30px 0;
   color: #fff;
 }
