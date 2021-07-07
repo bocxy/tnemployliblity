@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #ffd584;
+  color: #8a806d;
   text-decoration: none;
 }
 
@@ -1264,13 +1264,13 @@ color: whitesmoke;
   background: whitesmoke;
   border: 0;
   padding: 10px 24px;
-  color: whitesmoke;
+  color: grey;
   transition: 0.4s;
   border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ffcd6b;
+  background: whitesmoke;
 }
 
 @-webkit-keyframes animate-loading {
