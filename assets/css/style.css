@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: grey;
+  color: rgb(119, 108, 108);
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
