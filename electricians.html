@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Trainers - Mentor Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/men.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor - v2.2.1
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Bocxy.com</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+         
+          <li class="active"><a href="electricians.html">Welcome to Electrician Page</a></li>
+         
+        </ul>
+      </nav><!-- .nav-menu -->
+
+      <a href="index.html" class="get-started-btn">Home Page</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+
+      <div class="container">
+        
+        <button style = "color: black;" id = "myInput1" ><i style="padding: 4px"class="fa fa-map-marker"></i>Guindy </button>
+        <input type="text" id="myInput" placeholder="Search Place.." title="Type in a name">
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Trainers Section ======= -->
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-1.jpeg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Karthikeyan</h4>
+                <span>5 yrs Experience</span>
+                <p>
+                  5/1/55 Kkstreet,Guindy,Chennai
+                </p>
+                
+                <span class="fa fa-star checked" id = "myrat">4.5</span>
+               
+                <button id="myBtn">Book Now</button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer2.jpeg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Sarah Jhinson</h4>
+                <span>4 yrs Experience</span>
+                <p>
+                  6/2/22 Murugan kovil,Guindy,Chennai
+                </p>
+                <span class="fa fa-star checked" id = "myrat">4.1</span>
+                <button id="myBtn1">Book Now</button>
+              </div>  
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-3.jpeg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>William Anderson</h4>
+                <span>2 Yrs Experience</span>
+                <p>
+                  5/1/131 East street,Guindy,Chennai
+                </p>
+                <span class="fa fa-star checked" id = "myrat">4</span>
+                <button id="myBtn2">Book Now</button>
+                <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <form>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Enter address</label>
+        <input type="text" class="form-control" id="search_input" placeholder="Type address..." /> 
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Choose Type Of Service</label>
+        <select class="custom-select mr-sm-2"  name="select1" id="select1">
+          <option value="1">Repairs&Fixes</option>
+          <option value="2">Eletricity Breakdown </option>
+          <option value="3">Installation Service</option>
+        </select>
+        
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Click Date and Time</label>
+        <input type="datetime-local" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Rate</label>
+        <select class="custom-select mr-sm-2" id="select2">
+          <option id = 'fr' name = 'fr' value="0" >Rate...</option>
+          <option id="RM" name="RM" value="1"  >500</option>
+          <option  id="FG" name="FG" value="2"  >699  </option>
+          <option  id="PM" name="PM" value="3" >800</option>
+        </select>
+      </div>
+     
+      <button type="submit" class="btn btn-primary" onclick="clicked();">Book Appointment</button>
+      
+    </form>
+    
+
+</div>
+
+              </div>
+
+              
+            </div>
+            </div>
+          </div>
+
+
+          
+        </div>
+
+      </div>
+    </section><!-- End Trainers Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Bocxy technologies pvt ltd</h3>
+            <p>
+              No.2/19, 5th cross street, United India Colony,<br>
+              Kodambakkam, Chennai 600 024<br>
+              India <br><br>
+              <strong>Phone:</strong> +91 86969 83939<br>
+              <strong>Email:</strong> contact@bocxy.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Please send your queries</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright" style="color: black;">
+          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits" style="color: black;">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
+          Designed by <a href="https://www.bocxy.com/">BocxyMade</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src = "https://ajax.googleapis/ajax/libs/jquery/3.3.1/jquerymin.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+
+<!-- Google Maps JavaScript library -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCi9ymmxu3cMFWb8g7UNuqFa59nMUPCAyE"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/ele.js"></script>
+ 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>   
+<script type="text/javascript">
+    $(document).ready(function() {   
+$('#inlineFormCustomSelect').change(function(){   
+if($('#inlineFormCustomSelect').val() === '1' )  
+   {   
+   $('#RM').show();  
+   $('#PM').hide();
+   $('#FG').hide();
+   $('#fr').hide();
+   
+
+   }   
+else if ($('#inlineFormCustomSelect').val() === '2')
+   {   
+   $('#PM').show(); 
+   $('#FG').hide();
+   $('#RM').hide();
+   $('#fr').hide();
+  
+   }   
+   else if ($('#inlineFormCustomSelect').val() === '3')
+   {   
+   $('#FG').show(); 
+   $('#RM').hide();
+   $('#PM').hide();
+   $('#fr').hide();
+  
+   }   
+   else 
+   {  
+    $('#fr').show(); 
+   $('#PM').hide(); 
+   $('#RM').hide();
+   $('#FG').hide();
+  
+   }   
+   
+   
+});   
+});   
+
+$("#select1").change(function() {
+  if ($(this).data('options') === undefined) {
+    /*Taking an array of all options-2 and kind of embedding it on the select1*/
+    $(this).data('options', $('#select2 option').clone());
+  }
+  var id = $(this).val();
+  var options = $(this).data('options').filter('[value=' + id + ']');
+  $('#select2').html(options);
+}); 
+  </script>
+  
+  
+</body>
+
+</html>
